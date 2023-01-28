@@ -1,3 +1,11 @@
+
+// Create a Car class that extends the Vehicle class (located in the vehicle.js).
+// Add a constructor.
+// Add the super keyword to call the parent class constructor.
+// Add the properties listed in the Properties chart above.
+// Add the methods with psuedo logic listed in the Methods chart above.
+
+
 class Vehicle {
     constructor(make, model, year, color, mileage) {
         this.make = make;
@@ -10,6 +18,7 @@ class Vehicle {
         this.started = false;
         this.numberOfWheels = 0;
     }
+    
 
     start() {
         if (this.fuel > 0) {
